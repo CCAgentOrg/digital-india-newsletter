@@ -232,3 +232,18 @@ Aadhaar has transformed identity verification in India, enabling direct benefits
 ---
 
 *This is part of the DPI Watch 101 Series - Understanding India's Digital Public Infrastructure.*
+
+---
+
+## Prime References
+
+- [UIDAI Official Website](https://uidai.gov.in/) - Unique Identification Authority of India
+- [Aadhaar Authentication](https://auth.uidai.gov.in/) - Aadhaar authentication portal
+- [e-Aadhaar Download](https://eaadhaar.uidai.gov.in/) - Download Aadhaar online
+- [Aadhaar Services](https://uidai.gov.in/aadhaar_services) - All Aadhaar services
+- [Aadhaar Enrolment Centers](https://uidai.gov.in/enrolment-centre-search) - Find nearest center
+- [Aadhaar PVC Card](https://uidai.gov.in/aadhaar-pvc-card) - Order PVC card
+- [VID - Virtual ID](https://uidai.gov.in/virtual-id) - Privacy-preserving ID
+- [mAadhaar App](https://uidai.gov.in/maadhaar-app) - Mobile Aadhaar app
+- [Aadhaar Data Vault](https://uidai.gov.in/aadhaar-data-vault) - Secure data storage
+- [RBI KYC Guidelines](https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11566) - Aadhaar-linked KYC

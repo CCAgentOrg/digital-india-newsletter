@@ -301,3 +301,18 @@ ONDC is transforming Indian e-commerce by democratizing digital trade. Small sel
 ---
 
 *This is part of the DPI Watch 101 Series - Understanding India's Digital Public Infrastructure.*
+
+---
+
+## Prime References
+
+- [ONDC Official Website](https://www.ondc.org/) - Open Network for Digital Commerce
+- [ONDC Registry](https://registry.ondc.org/) - Register as buyer/seller
+- [ONDC Network Participant Directory](https://ondc.org/network-participants) - List of all ONDC apps
+- [ONDC Developer Portal](https://developer.ondc.org/) - API documentation
+- [ONDC Protocol Specifications](https://protocab.ondc.org/) - Technical specs
+- [ONDC GitHub](https://github.com/ONDC-Network) - Open-source implementations
+- [Open Finance Network](https://openfinance.org/) - Global digital commerce standards
+- [ONDC Protocol Reference](https://docs.ondc.org/) - Integration guides
+- [MeitY - ONDC](https://meity.gov.in/content/open-network-digital-commerce) - Government support
+- [ONDC Business Documentation](https://business.ondc.org/) - For merchants and businesses

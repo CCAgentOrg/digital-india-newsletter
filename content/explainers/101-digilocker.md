@@ -269,3 +269,18 @@ DigiLocker has transformed how Indians store and share documents. From eliminati
 ---
 
 *This is part of the DPI Watch 101 Series - Understanding India's Digital Public Infrastructure.*
+
+---
+
+## Prime References
+
+- [DigiLocker Official Website](https://digilocker.gov.in/) - India's document wallet platform
+- [DigiLocker For Citizens](https://digilocker.gov.in/citizen) - Citizen registration and services
+- [DigiLocker Partner Agencies](https://digilocker.gov.in/partners) - Issuing authorities
+- [DigiLocker Developers](https://developer.digilocker.gov.in/) - API documentation
+- [MeitY - Ministry of Electronics & IT](https://meity.gov.in/) - Parent ministry
+- [DigiLocker Statistics](https://stats.digilocker.gov.in/) - Adoption metrics
+- [eSign - Digital Signatures](https://www.esign.gov.in/) - Electronic signature service
+- [API Setu - MeitY](https://apisetu.gov.in/) - Government API platform
+- [Data Empowerment & Protection Architecture (DEPA)](https://depa.gov.in/) - Data sharing framework
+- [MeriPehchaan - Digital Identity](https://meripehchaan.gov.in/) - Federated identity
