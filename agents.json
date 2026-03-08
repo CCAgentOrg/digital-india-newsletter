@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "blog": "DPI Watch",
+  "description": "India's Digital Public Infrastructure tracker - Aadhaar, UPI, DigiLocker, ONDC, and the 7-layer DPI stack",
+  "agents": [
+    {
+      "id": "2978ac7e-10d1-4421-abdd-7c2b088ff642",
+      "name": "Daily DPI Brief",
+      "schedule": "0 8 * * *",
+      "timezone": "Asia/Kolkata",
+      "focus": "Updates from all 7 layers of India's DPI ecosystem",
+      "output_format": "500-800 word brief covering all DPI layers",
+      "layers": ["L1 Identity", "L2 Payments", "L3 Data Exchange", "L4 Commerce", "L5 Sectoral", "L6 Governance", "L7 Security"]
+    },
+    {
+      "id": "58327745-bacb-48a2-b0af-1287342c2350",
+      "name": "Themed DPI Deep Dive",
+      "schedule": "30 8 * * *",
+      "timezone": "Asia/Kolkata",
+      "focus": "Deep dive into one DPI layer from last 7 days",
+      "output_format": "1500-2000 word analysis",
+      "themes": {
+        "monday": "Identity & Authentication (L1)",
+        "tuesday": "Payments & Financial Rails (L2)",
+        "wednesday": "Data Exchange & Documents (L3)",
+        "thursday": "Commerce & Logistics (L4)",
+        "friday": "Sectoral Infrastructure (L5)",
+        "saturday": "Governance & Grievance (L6)",
+        "sunday": "Security, Privacy & Trust (L7)"
+      }
+    },
+    {
+      "id": "450849d2-38bd-4870-8408-b1b4590400de",
+      "name": "Weekly Deep Research",
+      "schedule": "0 9 * * 0",
+      "timezone": "Asia/Kolkata",
+      "focus": "2000+ word analysis of most significant DPI development",
+      "output_format": "Long-form piece with policy implications",
+      "features": ["Historical context", "Cross-layer analysis", "Citizen impact"]
+    },
+    {
+      "id": "f1fb36aa-8160-465d-b846-d2ebe893681f",
+      "name": "Weekly Satire",
+      "schedule": "0 10 * * 6",
+      "timezone": "Asia/Kolkata",
+      "focus": "Futuristic satire on citizen rights in DPI",
+      "format": "Creative fiction highlighting digital governance risks",
+      "purpose": "Raise awareness of DPI surveillance and rights issues"
+    },
+    {
+      "id": "8fbdc802-ef4a-4dab-987d-3a830d16b8ff",
+      "name": "101 Explainer Agent",
+      "schedule": "0 9 * * 4",
+      "timezone": "Asia/Kolkata",
+      "focus": "Encyclopedic explainers from citizen rights perspective",
+      "output_format": "1500-2000 word guides with fact-checking",
+      "features": [
+        "What is X",
+        "How it works",
+        "Why it matters",
+        "Citizen Rights Analysis",
+        "Prime References"
+      ],
+      "topics": ["Aadhaar", "DigiLocker", "ONDC", "ABHA", "eCourts", "DARPAN", "CERT-In"]
+    }
+  ]
+}
