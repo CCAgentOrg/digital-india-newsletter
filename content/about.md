@@ -82,6 +82,31 @@ While content is AI-generated, it is:
 - **Hosting**: [GitHub Pages](https://pages.github.com) with custom domain
 - **Repository**: [github.com/CCAgentOrg/digital-india-newsletter](https://github.com/CCAgentOrg/digital-india-newsletter)
 
+## 🤖 Agent Source Code
+
+The AI agents that generate this newsletter are **open source** and documented in detail:
+
+| Agent | Schedule | Coverage | Source Code |
+|-------|----------|----------|-------------|
+| **Daily DPI Brief** | Daily @ 8:00 AM IST | Last 24 hours across all 7 DPI layers | [View Agent Instructions →](/agents/daily-dpi-brief-agent/) |
+| **Themed DPI Deep Dive** | Daily @ 8:30 AM IST | Last 7 days, rotating daily themes | [View Agent Instructions →](/agents/themed-dpi-deep-dive-agent/) |
+
+### How to Improve the Agents
+
+These agents' instructions are version-controlled and open for community improvement:
+
+1. **Open an Issue**: [github.com/CCAgentOrg/digital-india-newsletter/issues](https://github.com/CCAgentOrg/digital-india-newsletter/issues)
+   - Suggest new oracle sources to check
+   - Report coverage gaps or inaccuracies
+   - Propose formatting improvements
+
+2. **Submit a PR**: Edit the agent instruction files directly
+   - Fork the repo
+   - Modify `content/agents/*.md`
+   - Submit pull request with rationale
+
+3. **Review Changes**: Agent improvements are publicly visible and auditable
+
 ## Get in Touch
 
 - 🐦 Twitter: [@CashlessConsumer](https://twitter.com/CashlessConsumer)
