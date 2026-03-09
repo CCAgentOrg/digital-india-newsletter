@@ -1,49 +1,60 @@
 {
-  "version": "1.0",
-  "blog": "DPI Watch",
-  "url": "https://dpiwatch.cashlessconsumer.in",
-  "agents": [
+  "version": "2.0",
+  "last_updated": "2026-03-09",
+  "description": "Machine-readable agent registry for DPI Watch",
+  "scheduled_agents": [
     {
       "id": "2978ac7e-10d1-4421-abdd-7c2b088ff642",
       "name": "Daily DPI Brief",
       "type": "scheduled",
-      "schedule": "Daily 8:00 AM",
-      "description": "Daily DPI news brief covering all 7 layers"
+      "schedule": "Daily 8:00 AM IST",
+      "description": "Top DPI news from last 24 hours",
+      "source_file": "content/agents/daily-brief-agent.md"
     },
     {
       "id": "58327745-bacb-48a2-b0af-1287342c2350",
       "name": "Themed DPI Deep Dive",
       "type": "scheduled",
-      "schedule": "Daily 8:30 AM",
-      "description": "Themed DPI layer analysis covering last 7 days"
+      "schedule": "Daily 8:30 AM IST",
+      "description": "Rotating 7-layer DPI analysis (Mon-Sun)",
+      "source_file": "content/agents/themed-deep-dive-agent.md"
     },
     {
-      "id": "8fbdc802-ab3c-4e9c-ab91-2a8f30d16b8ff",
-      "name": "Weekly DPI Deep Research",
+      "id": "450849d2-38bd-4870-8408-b1b4590400de",
+      "name": "Weekly Deep Research",
       "type": "scheduled",
-      "schedule": "Sundays 9:00 AM",
-      "description": "2000+ word comprehensive weekly DPI analysis"
+      "schedule": "Sundays 9:00 AM IST",
+      "description": "2000+ word comprehensive DPI analysis",
+      "source_file": "content/agents/weekly-deep-research-agent.md"
     },
     {
-      "id": "7c9e1b3d-5f8a-42e1-b9a3-6d8e4f7c2b1a",
-      "name": "Weekly DPI Satire",
+      "id": "f1fb36aa-8160-465d-b846-d2ebe893681f",
+      "name": "Weekly Satire",
       "type": "scheduled",
-      "schedule": "Saturdays 10:00 AM",
-      "description": "Futuristic satire highlighting citizen rights threats"
+      "schedule": "Saturdays 10:00 AM IST",
+      "description": "Futuristic satire on citizen rights",
+      "source_file": "content/agents/weekly-satire-agent.md"
     },
     {
-      "id": "9a4f2c1e-7d3b-42f5-a8e1-5c6d8e3f2b1a",
+      "id": "8fbdc802-ef4a-4dab-987d-3a830d16b8ff",
       "name": "101 Explainer Agent",
-      "type": "on-demand",
-      "trigger": "Manual request",
-      "description": "Generates encyclopedic DPI explainer guides"
-    },
+      "type": "scheduled",
+      "schedule": "Thursdays 9:00 AM IST",
+      "description": "Encyclopedic guides with citizen rights focus",
+      "source_file": "content/agents/101-explainer-agent.md"
+    }
+  ],
+  "on_demand_agents": [
     {
-      "id": "2e8f3a7c-9d4b-42f5-a8e1-8c7d6e5f3a2b",
-      "name": "Stakeholder Agent",
-      "type": "on-demand",
-      "trigger": "Manual request",
-      "description": "Generates DPI stakeholder directory and maps"
+      "id": "f153969d-d80f-4678-8e90-1a2a04ea566c",
+      "name": "Stakeholder Mapping Agent",
+      "type": "on_demand",
+      "trigger": "Manual via chat",
+      "description": "Fact-checked stakeholder maps with cross-verification",
+      "source_file": "content/agents/stakeholder-agent.md",
+      "version": "2.0",
+      "mission_included": true,
+      "cross_verification": true
     }
   ]
 }
