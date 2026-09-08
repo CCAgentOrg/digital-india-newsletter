@@ -1,3 +1,12 @@
+---
+title: "DPI Deep Dive — Tuesday | September 08, 2026"
+date: 2026-09-08T08:30:00+05:30
+draft: false
+tags: ["DPI", "Deep Dive", "Layer: Tuesday"]
+categories: ["DPI Deep Dive"]
+description: "Weekly analysis of Tuesday layer in India's Digital Public Infrastructure"
+---
+
 Layer 2 — Payments & Financial Rails — had the kind of week that only looks quiet from the outside. The through-line for September 1–8: UPI set another volume record even as its value line flattened, and the system's operators spent the week wiring the rails for things that are not payments-by-humans at all — AI agents that pay without asking, a chat app that becomes the bill counter, credit cards that live inside a QR scan. Meanwhile, the borders of the rail got redrawn twice in three days: one handshake signed in Tashkent, one held open for years and then quietly shelved in Delhi. The through-line is that UPI is no longer just growing — it is being redefined as general-purpose transaction infrastructure, and every one of this week's stories is a fight over who gets to define it.
 
 ---
